@@ -1,0 +1,22 @@
+@import "../../../assets/scss/color";
+
+.app_header {
+  height: 100vh;
+  background-image: url("../../../assets/images/finance_banner.png");
+  background-size: cover;
+
+  &__text {
+    color: $app-color__font;
+    top: -50;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  &__action_btn {
+    top: 150;
+  }
+}
